@@ -1,0 +1,51 @@
+.my-team{
+    background-color: #C02125;
+    width: 66%;
+    height: 100%;
+    border-right: 30px solid black;
+    border-top: 5px solid black;
+}
+
+.circle2{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border: 30px solid black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 7px;
+    right: 26.5%;
+    z-index: 2;
+
+}
+
+.added-pokemons{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.added-pokemon{
+    border: 3px solid black;
+    background-color: white;
+    margin-top: 7%;
+    width: 17%;
+    height: 250px;
+    margin-left: 5%;
+    
+}
+
+.remove-button{
+    margin-bottom: 10px;
+}
+
+.pokemonName{
+    text-transform: capitalize;
+}
+
+.my-team img{
+    transform: scale(1.5);
+    margin-top: 20px;
+}

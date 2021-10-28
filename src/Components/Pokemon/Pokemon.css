@@ -1,0 +1,47 @@
+#poke-data{
+    width: 33%;
+    border-top: 5px solid black;
+  }
+  
+  .poke-data{
+    border: 2px solid black;
+    margin: 5% 15% 60px 25%;
+    text-align: left;
+    width: 60%;
+    height: 65%;
+    position: relative;
+  }
+  
+  .images{
+    display: flex;
+    justify-content: space-around
+  }
+
+  .images img{
+    transform: scale(1.5);
+    margin-top: 20px;
+  }
+
+  .poke-name{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 40px;
+  }
+  
+  .poke-info{
+    margin-top: 50px;
+  }  
+
+  .poke-info p{
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  
+  .poke-data button{
+      position: absolute;
+      bottom: 15px;
+      left: 15px;
+  }

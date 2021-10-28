@@ -1,0 +1,43 @@
+.main #pokemons{
+    width: 66%;
+    border-right: 30px solid black;
+    /* height: 100vh; */
+    background-color: #C02125;
+    display: flex;
+    position: relative;
+    border-top: 5px solid black;
+}
+
+.main .pokemons{
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.circle{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border: 30px solid black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 100px;
+    right: -145px;
+    z-index: 2;
+
+}
+.pokemons a{
+    text-decoration: none;
+}
+
+.pokemon{
+    list-style: none;
+    background-color: white;
+    border: 3px solid black;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    padding: 1px 0;
+    font-size: 20px;
+    text-transform: capitalize;
+    border-radius: 5px 10px 10px 5px;
+}
